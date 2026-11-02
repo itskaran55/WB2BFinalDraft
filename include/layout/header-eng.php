@@ -138,23 +138,14 @@
 <body class="bg-slate-50 text-slate-900 antialiased selection:bg-blue-600 selection:text-white">
 
     <!-- Fixed Header (Always Pinned to Top) -->
+    <!-- Fixed Header (Always Pinned to Top) -->
     <header id="mainHeader" class="fixed top-0 left-0 right-0 w-full z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-sm transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16 sm:h-20">
 
                 <!-- Logo Section -->
                 <a href="#hero" class="flex items-center gap-2.5 sm:gap-3 shrink-0 group focus:outline-none">
-                    <div class="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-blue-600 to-indigo-700 flex items-center justify-center text-white shadow-md shadow-blue-500/25 group-hover:scale-105 transition duration-200 shrink-0">
-                        <svg class="w-5 h-5 sm:w-6 sm:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                        </svg>
-                    </div>
-                    <div class="flex flex-col">
-                        <span class="text-xl sm:text-2xl font-black tracking-tight text-slate-900 leading-none">
-                            WB<span class="text-blue-600">2</span>B
-                        </span>
-                        <span class="text-[9px] sm:text-[10px] font-bold text-slate-500 uppercase tracking-wider leading-tight">Cattle Feed Network</span>
-                    </div>
+                    <img src="assets/WB2BLogo.png" alt="WB2B Logo" class="h-9 sm:h-11 w-auto object-contain group-hover:scale-105 transition duration-200">
                 </a>
 
                 <!-- Desktop Navigation Menu (Hidden on mobile/tablet) -->
