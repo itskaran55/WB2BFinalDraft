@@ -95,7 +95,7 @@
                 © 2026 WB2B. Cattle Feed Trade Network. All rights reserved. Powered by <a href="https://socialamplifiers.com" target="_blank" style="font-weight: bold" class="text-slate-300 hover:text-white transition">Social Amplifiers</a>
             </div>
             <div class="flex items-center gap-4">
-                <a href="#hero" class="hover:text-white transition">Privacy Policy</a>
+                <a href="privacy-policy.php" class="hover:text-white transition">Privacy Policy</a>
                 <span>•</span>
                 <a href="#hero" class="hover:text-white transition">Terms & Conditions</a>
                 <span>•</span>

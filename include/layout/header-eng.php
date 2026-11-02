@@ -145,7 +145,7 @@
 
                 <!-- Logo Section -->
                 <a href="#hero" class="flex items-center gap-2.5 sm:gap-3 shrink-0 group focus:outline-none">
-                    <img src="assets/WB2BLogo.png" alt="WB2B Logo" class="h-9 sm:h-11 w-auto object-contain group-hover:scale-105 transition duration-200">
+                    <img src="/assets/WB2BLogo.png" alt="WB2B Logo" class="h-9 sm:h-11 w-auto object-contain group-hover:scale-105 transition duration-200">
                 </a>
 
                 <!-- Desktop Navigation Menu (Hidden on mobile/tablet) -->
