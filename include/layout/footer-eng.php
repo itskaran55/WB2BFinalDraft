@@ -6,14 +6,10 @@
 
             <!-- Column 1: Brand Info -->
             <div class="space-y-4">
-                <a href="#hero" class="flex items-center gap-3">
-                    <div
-                        class="w-10 h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center font-black shadow-md shadow-blue-500/20">
-                        WB
-                    </div>
+                <a href="/index.php" class="flex items-center gap-3 group focus:outline-none">
+                    <img src="../../assets/WB2BLogo.png" alt="WB2B Logo" class="h-10 w-auto object-contain group-hover:scale-105 transition duration-200">
                     <div>
-                        <span class="text-2xl font-black tracking-tight text-white">WB<span
-                                class="text-blue-500">2</span>B</span>
+                        <span class="text-2xl font-black tracking-tight text-white">WB<span class="text-blue-500">2</span>B</span>
                         <div class="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Cattle Feed Network</div>
                     </div>
                 </a>
@@ -23,8 +19,7 @@
                 </p>
 
                 <div class="pt-1">
-                    <span
-                        class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-800 text-blue-300 text-xs border border-slate-700 font-semibold">
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-800 text-blue-300 text-xs border border-slate-700 font-semibold">
                         <span class="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
                         <span>100% Verified Members</span>
                     </span>
@@ -33,31 +28,32 @@
 
             <!-- Column 2: Navigation Links -->
             <div>
-                <h4
-                    class="text-sm font-black text-white uppercase tracking-wider mb-4 border-l-2 border-blue-500 pl-2.5">
+                <h4 class="text-sm font-black text-white uppercase tracking-wider mb-4 border-l-2 border-blue-500 pl-2.5">
                     Quick Links
                 </h4>
                 <ul class="space-y-2.5 text-xs sm:text-sm font-medium">
                     <li>
-                        <a href="#hero" class="hover:text-blue-400 transition">Home</a>
+                        <a href="/index.php" class="hover:text-blue-400 transition">Home</a>
                     </li>
                     <li>
-                        <a href="#importance" class="hover:text-blue-400 transition">Why WB2B?</a>
+                        <a href="/index.php#importance" class="hover:text-blue-400 transition">Why WB2B?</a>
+                    </li>
+                    <!-- Privacy Policy Link -->
+                    <li>
+                        <a href="../home/privacy-policy.php" class="hover:text-blue-400 transition">Privacy Policy</a>
                     </li>
                     <li>
-                        <a href="#contact" class="hover:text-blue-400 transition">Contact Form</a>
+                        <a href="/index.php#contact" class="hover:text-blue-400 transition">Contact Form</a>
                     </li>
                     <li>
-                        <a href="https://wa.me/919876543210" target="_blank"
-                            class="hover:text-blue-400 transition">WhatsApp Support</a>
+                        <a href="https://wa.me/919876543210" target="_blank" class="hover:text-blue-400 transition">WhatsApp Support</a>
                     </li>
                 </ul>
             </div>
 
             <!-- Column 3: Products -->
             <div>
-                <h4
-                    class="text-sm font-black text-white uppercase tracking-wider mb-4 border-l-2 border-blue-500 pl-2.5">
+                <h4 class="text-sm font-black text-white uppercase tracking-wider mb-4 border-l-2 border-blue-500 pl-2.5">
                     Key Products
                 </h4>
                 <ul class="space-y-2.5 text-xs sm:text-sm text-slate-300 font-medium">
@@ -72,14 +68,12 @@
 
             <!-- Column 4: Contact & Office -->
             <div>
-                <h4
-                    class="text-sm font-black text-white uppercase tracking-wider mb-4 border-l-2 border-blue-500 pl-2.5">
+                <h4 class="text-sm font-black text-white uppercase tracking-wider mb-4 border-l-2 border-blue-500 pl-2.5">
                     Contact Details
                 </h4>
                 <div class="space-y-3 text-xs sm:text-sm text-slate-300">
                     <div class="pt-2">
-                        <a href="#contact"
-                            class="inline-block px-4 py-2 rounded-xl bg-blue-600 text-white font-bold text-xs hover:bg-blue-500 transition duration-200 shadow-md shadow-blue-600/30">
+                        <a href="/index.php#contact" class="inline-block px-4 py-2 rounded-xl bg-blue-600 text-white font-bold text-xs hover:bg-blue-500 transition duration-200 shadow-md shadow-blue-600/30">
                             Get in Touch →
                         </a>
                     </div>
@@ -89,17 +83,16 @@
         </div>
 
         <!-- Bottom Copyright -->
-        <div
-            class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400 font-medium">
+        <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400 font-medium">
             <div>
-                © 2026 WB2B. Cattle Feed Trade Network. All rights reserved. Powered by <a href="https://socialamplifiers.com" target="_blank" style="font-weight: bold" class="text-slate-300 hover:text-white transition">Social Amplifiers</a>
+                &copy; 2026 WB2B. Cattle Feed Trade Network. All rights reserved. Powered by <a href="https://socialamplifiers.com" target="_blank" style="font-weight: bold" class="text-slate-300 hover:text-white transition">Social Amplifiers</a>
             </div>
             <div class="flex items-center gap-4">
-                <a href="privacy-policy.php" class="hover:text-white transition">Privacy Policy</a>
+                <a href="../home/privacy-policy.php" class="hover:text-white transition">Privacy Policy</a>
                 <span>•</span>
-                <a href="#hero" class="hover:text-white transition">Terms & Conditions</a>
+                <a href="/index.php" class="hover:text-white transition">Terms & Conditions</a>
                 <span>•</span>
-                <a href="#contact" class="hover:text-white transition">Help Center</a>
+                <a href="/index.php#contact" class="hover:text-white transition">Help Center</a>
             </div>
         </div>
 
