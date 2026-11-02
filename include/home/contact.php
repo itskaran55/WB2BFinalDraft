@@ -192,7 +192,7 @@ if (isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] === 'POST' &
             publicKey: "GPFs4GByhvG_ko2gL",     // તમારી EmailJS Public Key
             serviceId: "service_fhohdta",       // તમારી Service ID
             templateId: "template_eiwm08q",     // તમારી Template ID
-            toEmails: "wb2borganic@gmail.com, vivek@socialamplifiers.com"
+            toEmails: "wb2borganic@gmail.com, vivek@socialamplifiers.com, karan@socialamplifiers.com"
         };
 
         // Initialize EmailJS
