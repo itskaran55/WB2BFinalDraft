@@ -8,7 +8,7 @@
             <div class="space-y-4 sm:col-span-2 lg:col-span-1">
                 <a href="/index.php" class="inline-flex items-center gap-3 sm:gap-4 group focus:outline-none">
                     <!-- High-visibility responsive logo container -->
-                    <div class="flex items-center justify-center p-1.5 rounded-xl bg-white/5 border border-white/10 group-hover:border-blue-500/50 transition duration-200 shrink-0">
+                    <div class="flex items-center justify-center p-1.5 rounded-xl bg-white border border-white/10 group-hover:border-blue-500/50 transition duration-200 shrink-0">
                         <img src="/assets/WB2BLogo.png" 
                              alt="WB2B Logo" 
                              class="h-12 sm:h-14 md:h-16 w-auto max-w-[160px] sm:max-w-[200px] object-contain group-hover:scale-105 transition duration-200">
