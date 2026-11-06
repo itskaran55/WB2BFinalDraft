@@ -40,7 +40,7 @@
                     </li>
                     <!-- Privacy Policy Link -->
                     <li>
-                        <a href="../home/privacy-policy.php" class="hover:text-blue-400 transition">Privacy Policy</a>
+                        <a href="/privacy-policy.php" class="hover:text-blue-400 transition">Privacy Policy</a>
                     </li>
                     <li>
                         <a href="/index.php#contact" class="hover:text-blue-400 transition">Contact Form</a>

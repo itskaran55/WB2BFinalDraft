@@ -10,6 +10,10 @@
       "dest": "/assets/$1"
     },
     {
+      "src": "/privacy-policy",
+      "dest": "/api/privacy-policy.php"
+    },
+    {
       "src": "/(.*)",
       "dest": "/api/index.php"
     }
