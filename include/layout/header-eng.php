@@ -41,7 +41,7 @@
 
     <style>
         html {
-            scroll-padding-top: 5rem;
+            scroll-padding-top: 6.5rem;
         }
 
         html, body {
@@ -141,11 +141,12 @@
     <!-- Fixed Header (Always Pinned to Top) -->
     <header id="mainHeader" class="fixed top-0 left-0 right-0 w-full z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-sm transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-16 sm:h-20">
+            <div class="flex items-center justify-between h-20 sm:h-24">
 
                 <!-- Logo Section -->
                 <a href="#hero" class="flex items-center gap-2.5 sm:gap-3 shrink-0 group focus:outline-none">
-                    <img src="/assets/WB2BLogo.png" alt="WB2B Logo" class="h-9 sm:h-11 w-auto object-contain group-hover:scale-105 transition duration-200">
+                    <!-- New: h-12 sm:h-14 lg:h-16 (48px mobile / 56px tablet / 64px desktop) -->
+<img src="/assets/WB2BLogo.png" alt="WB2B Logo" class="h-12 sm:h-14 lg:h-16 w-auto object-contain group-hover:scale-105 transition duration-200">
                 </a>
 
                 <!-- Desktop Navigation Menu (Hidden on mobile/tablet) -->

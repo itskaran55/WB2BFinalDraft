@@ -199,13 +199,6 @@
         </div>
     </main>
 
-    <!-- Footer Component -->
-    <footer class="bg-slate-900 text-slate-400 py-10 mt-auto border-t border-slate-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-xs sm:text-sm">
-            <p>&copy; 2026 WB2B - Cattle Feed Digital Trade Network. All rights reserved.</p>
-        </div>
-    </footer>
-
     <!-- Script for Mobile Menu Toggle -->
     <script>
         const mobileMenuBtn = document.getElementById('mobileMenuBtn');
