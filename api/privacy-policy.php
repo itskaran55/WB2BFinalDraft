@@ -1,19 +1,12 @@
 <?php
-/**
- * WB2B - પશુ આહાર B2B નેટવર્ક
- * Main Home Page Entry Point
- */
+// Set base path relative to this file
+$baseDir = __DIR__ . '/..';
 
-// 1. Layout Header
-require_once __DIR__ . '/../include/layout/header-eng.php';
+// 1. Render Header
+require_once $baseDir . '/include/layout/header-eng.php';
 
-echo '<main class="pt-16 sm:pt-20">';
+// 2. Render Privacy Policy Body
+require_once $baseDir . '/include/home/privacy-policy.php';
 
-// 2. Section 1: Hero Section (Includes 3 quick category cards)
-require_once __DIR__ . '/../include/home/privacy-policy.php';
-
-echo '</main>';
-
-// 5. Layout Footer
-require_once __DIR__ . '/../include/layout/footer-eng.php';
-?>
+// 3. Render Footer
+require_once $baseDir . '/include/layout/footer-eng.php';

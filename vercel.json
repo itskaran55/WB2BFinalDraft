@@ -10,11 +10,11 @@
       "dest": "/assets/$1"
     },
     {
-      "src": "/privacy-policy",
+      "src": "/privacy-policy(.php)?",
       "dest": "/api/privacy-policy.php"
     },
     {
-      "src": "/home/privacy-policy.php",
+      "src": "/home/privacy-policy(.php)?",
       "dest": "/api/privacy-policy.php"
     },
     {
