@@ -47,10 +47,13 @@
                         <a href="/privacy-policy.php" class="hover:text-blue-400 transition inline-block py-0.5 font-semibold text-slate-300 hover:text-white">Privacy Policy</a>
                     </li>
                     <li>
+                        <a href="/terms-conditions" class="hover:text-blue-400 transition inline-block py-0.5 font-semibold text-slate-300 hover:text-white">Terms & Conditions</a>
+                    </li>
+                    <li>
                         <a href="/index.php#contact" class="hover:text-blue-400 transition inline-block py-0.5">Contact Form</a>
                     </li>
                     <li>
-                        <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" class="hover:text-blue-400 transition inline-flex items-center gap-1.5 py-0.5">
+                        <a href="https://wa.me/919512015163" target="_blank" rel="noopener noreferrer" class="hover:text-blue-400 transition inline-flex items-center gap-1.5 py-0.5">
                             <span>WhatsApp Support</span>
                             <span class="text-xs">↗</span>
                         </a>
@@ -82,8 +85,38 @@
                     <p class="text-slate-400">
                         Have queries or want to list your mill/trade business?
                     </p>
+
+                    <!-- Direct Contact Numbers -->
+                    <div class="space-y-2.5 pt-0.5">
+                        <!-- Bhavin Bhai -->
+                        <div class="p-3 rounded-xl bg-slate-800/60 border border-slate-700/70 hover:border-blue-500/40 transition">
+                            <div class="text-[11px] font-bold uppercase tracking-wider text-blue-400">Bhavin Bhai</div>
+                            <div class="mt-1 flex items-center justify-between gap-2">
+                                <a href="tel:+919512015163" class="font-bold text-white hover:text-blue-300 transition tracking-wide">
+                                    +91 95120 15163
+                                </a>
+                                <a href="https://wa.me/919512015163" target="_blank" rel="noopener noreferrer" aria-label="Chat with Bhavin Bhai on WhatsApp" class="text-[11px] font-semibold px-2 py-0.5 rounded-md bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 hover:bg-emerald-500/25 transition">
+                                    WhatsApp
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Vishnu Bhai -->
+                        <div class="p-3 rounded-xl bg-slate-800/60 border border-slate-700/70 hover:border-blue-500/40 transition">
+                            <div class="text-[11px] font-bold uppercase tracking-wider text-blue-400">Vishnu Bhai</div>
+                            <div class="mt-1 flex items-center justify-between gap-2">
+                                <a href="tel:+919512015165" class="font-bold text-white hover:text-blue-300 transition tracking-wide">
+                                    +91 95120 15165
+                                </a>
+                                <a href="https://wa.me/919512015165" target="_blank" rel="noopener noreferrer" aria-label="Chat with Vishnu Bhai on WhatsApp" class="text-[11px] font-semibold px-2 py-0.5 rounded-md bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 hover:bg-emerald-500/25 transition">
+                                    WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="pt-1">
-                        <a href="/index.php#contact" class="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-blue-600 text-white font-bold text-xs sm:text-sm hover:bg-blue-500 active:scale-98 transition duration-200 shadow-lg shadow-blue-600/30">
+                        <a href="/index.php#contact" class="w-full inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-blue-600 text-white font-bold text-xs sm:text-sm hover:bg-blue-500 active:scale-98 transition duration-200 shadow-lg shadow-blue-600/30">
                             <span>Get in Touch</span>
                             <span>→</span>
                         </a>
@@ -101,7 +134,7 @@
             <div class="flex flex-wrap items-center justify-center gap-4">
                 <a href="/privacy-policy.php" class="hover:text-white transition">Privacy Policy</a>
                 <span class="text-slate-600">•</span>
-                <a href="/index.php" class="hover:text-white transition">Terms & Conditions</a>
+                <a href="/terms-conditions" class="hover:text-white transition">Terms & Conditions</a>
                 <span class="text-slate-600">•</span>
                 <a href="/index.php#contact" class="hover:text-white transition">Help Center</a>
             </div>
