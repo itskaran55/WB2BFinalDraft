@@ -98,16 +98,16 @@
     <header id="mainHeader" class="fixed top-0 left-0 right-0 w-full z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-sm transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16 sm:h-20">
-                <a href="index.php" class="flex items-center gap-2.5 sm:gap-3 shrink-0 group focus:outline-none">
-                    <img src="../assets/WB2BLogo.png" alt="WB2B Logo" class="h-9 sm:h-11 w-auto object-contain group-hover:scale-105 transition duration-200">
+                <a href="/index.php" class="flex items-center gap-2.5 sm:gap-3 shrink-0 group focus:outline-none">
+                    <img src="/assets/WB2BLogo.png" alt="WB2B Logo" class="h-9 sm:h-11 w-auto object-contain group-hover:scale-105 transition duration-200">
                 </a>
                 <nav class="hidden md:flex items-center gap-1.5 lg:gap-3 text-sm lg:text-[15px] font-bold text-slate-700">
-                    <a href="index.php" class="px-3.5 lg:px-4 py-2 rounded-xl hover:text-blue-600 hover:bg-blue-50 transition">Home</a>
-                    <a href="index.php#importance" class="px-3.5 lg:px-4 py-2 rounded-xl hover:text-blue-600 hover:bg-blue-50 transition">Why WB2B?</a>
-                    <a href="index.php#contact" class="px-3.5 lg:px-4 py-2 rounded-xl hover:text-blue-600 hover:bg-blue-50 transition">Contact Us</a>
+                    <a href="/index.php" class="px-3.5 lg:px-4 py-2 rounded-xl hover:text-blue-600 hover:bg-blue-50 transition">Home</a>
+                    <a href="/index.php#importance" class="px-3.5 lg:px-4 py-2 rounded-xl hover:text-blue-600 hover:bg-blue-50 transition">Why WB2B?</a>
+                    <a href="/index.php#contact" class="px-3.5 lg:px-4 py-2 rounded-xl hover:text-blue-600 hover:bg-blue-50 transition">Contact Us</a>
                 </nav>
                 <div class="hidden md:flex items-center gap-3">
-                    <a href="index.php#contact" class="btn-theme text-xs lg:text-sm !py-2.5 !px-5">
+                    <a href="/index.php#contact" class="btn-theme text-xs lg:text-sm !py-2.5 !px-5">
                         <span>Get in Touch</span>
                         <span>→</span>
                     </a>
@@ -122,9 +122,9 @@
         </div>
         <div id="mobileMenu" class="hidden md:hidden bg-white border-b border-slate-200 px-5 py-4 shadow-xl space-y-3">
             <nav class="flex flex-col gap-1.5 font-bold text-slate-800 text-sm">
-                <a href="index.php" class="mobile-nav-item py-2.5 px-3.5 rounded-xl hover:bg-blue-50 hover:text-blue-700">Home</a>
-                <a href="index.php#importance" class="mobile-nav-item py-2.5 px-3.5 rounded-xl hover:bg-blue-50 hover:text-blue-700">Why WB2B?</a>
-                <a href="index.php#contact" class="mobile-nav-item py-2.5 px-3.5 rounded-xl hover:bg-blue-50 hover:text-blue-700">Contact Us</a>
+                <a href="/index.php" class="mobile-nav-item py-2.5 px-3.5 rounded-xl hover:bg-blue-50 hover:text-blue-700">Home</a>
+                <a href="/index.php#importance" class="mobile-nav-item py-2.5 px-3.5 rounded-xl hover:bg-blue-50 hover:text-blue-700">Why WB2B?</a>
+                <a href="/index.php#contact" class="mobile-nav-item py-2.5 px-3.5 rounded-xl hover:bg-blue-50 hover:text-blue-700">Contact Us</a>
             </nav>
         </div>
     </header>
@@ -147,18 +147,18 @@
                 </p>
 
                 <!-- Language Toggle Pill -->
-                <div class="mt-6 inline-flex items-center p-1.5 bg-white border border-slate-200 rounded-2xl shadow-sm" role="group" aria-label="Language Switcher">
-                    <button type="button" id="btnEn" onclick="switchLanguage('en')" class="lang-tab active px-5 py-2 rounded-xl text-sm font-bold text-slate-600 hover:text-slate-900 cursor-pointer">
+                <div class="mt-6 inline-flex items-center p-1.5 bg-white border border-slate-200 rounded-2xl shadow-sm relative z-20" role="group" aria-label="Language Switcher">
+                    <button type="button" id="btnEn" data-lang="en" class="lang-tab active px-5 py-2.5 rounded-xl text-sm font-bold cursor-pointer select-none">
                         English
                     </button>
-                    <button type="button" id="btnGu" onclick="switchLanguage('gu')" class="lang-tab px-5 py-2 rounded-xl text-sm font-bold text-slate-600 hover:text-slate-900 cursor-pointer">
+                    <button type="button" id="btnGu" data-lang="gu" class="lang-tab px-5 py-2.5 rounded-xl text-sm font-bold text-slate-600 hover:text-slate-900 cursor-pointer select-none">
                         ગુજરાતી (Gujarati)
                     </button>
                 </div>
             </div>
 
             <!-- ==================== ENGLISH CONTENT ==================== -->
-            <div id="contentEn" class="theme-card p-6 sm:p-10 lg:p-12 space-y-8 text-slate-700 leading-relaxed text-sm sm:text-base">
+            <div id="contentEn" class="theme-card p-6 sm:p-10 lg:p-12 space-y-8 text-slate-700 leading-relaxed text-sm sm:text-base" style="display: block;">
 
                 <!-- Intro -->
                 <div class="bg-blue-50/70 border border-blue-100 rounded-2xl p-5 sm:p-6 text-slate-800 space-y-2">
@@ -306,7 +306,7 @@
             </div>
 
             <!-- ==================== GUJARATI CONTENT ==================== -->
-            <div id="contentGu" class="hidden theme-card p-6 sm:p-10 lg:p-12 space-y-8 text-slate-700 leading-relaxed text-sm sm:text-base">
+            <div id="contentGu" class="hidden theme-card p-6 sm:p-10 lg:p-12 space-y-8 text-slate-700 leading-relaxed text-sm sm:text-base" style="display: none;">
 
                 <!-- Intro -->
                 <div class="bg-blue-50/70 border border-blue-100 rounded-2xl p-5 sm:p-6 text-slate-800 space-y-2">
@@ -465,24 +465,27 @@
         </div>
     </main>
 
+    <!-- Include Footer Component if using PHP -->
+    <!-- <?php include 'footer.php'; ?> -->
+
     <!-- Scripts -->
     <script>
-        // Mobile Menu Toggle
-        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-        const mobileMenu = document.getElementById('mobileMenu');
-        const hamburgerIcon = document.getElementById('hamburgerIcon');
-        const closeIcon = document.getElementById('closeIcon');
+        document.addEventListener('DOMContentLoaded', function () {
+            // Mobile Menu Toggle
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const mobileMenu = document.getElementById('mobileMenu');
+            const hamburgerIcon = document.getElementById('hamburgerIcon');
+            const closeIcon = document.getElementById('closeIcon');
 
-        if (mobileMenuBtn) {
-            mobileMenuBtn.addEventListener('click', function () {
-                mobileMenu.classList.toggle('hidden');
-                hamburgerIcon.classList.toggle('hidden');
-                closeIcon.classList.toggle('hidden');
-            });
-        }
+            if (mobileMenuBtn && mobileMenu) {
+                mobileMenuBtn.addEventListener('click', function () {
+                    mobileMenu.classList.toggle('hidden');
+                    if (hamburgerIcon) hamburgerIcon.classList.toggle('hidden');
+                    if (closeIcon) closeIcon.classList.toggle('hidden');
+                });
+            }
 
-        // Language Switcher (English <-> Gujarati)
-        function switchLanguage(lang) {
+            // Language Switcher (English <-> Gujarati)
             const contentEn = document.getElementById('contentEn');
             const contentGu = document.getElementById('contentGu');
             const btnEn = document.getElementById('btnEn');
@@ -490,32 +493,52 @@
             const pageTitle = document.getElementById('pageTitle');
             const pageSubtitle = document.getElementById('pageSubtitle');
 
-            if (lang === 'gu') {
-                contentEn.classList.add('hidden');
-                contentGu.classList.remove('hidden');
+            function setLanguage(lang) {
+                if (!contentEn || !contentGu || !btnEn || !btnGu) return;
 
-                btnGu.classList.add('active');
-                btnGu.classList.remove('text-slate-600');
-                btnEn.classList.remove('active');
-                btnEn.classList.add('text-slate-600');
+                if (lang === 'gu') {
+                    contentEn.classList.add('hidden');
+                    contentEn.style.display = 'none';
 
-                pageTitle.textContent = 'નિયમો અને શરતો (Terms & Conditions)';
-                pageSubtitle.textContent = 'WB2B (WB2B Platform) — તમામ વેપારીઓ, બ્રોકર, ઓઇલ મિલ ઓનર્સ અને સભ્યો માટે ફરજિયાત નિયમો.';
-                document.documentElement.lang = 'gu';
-            } else {
-                contentGu.classList.add('hidden');
-                contentEn.classList.remove('hidden');
+                    contentGu.classList.remove('hidden');
+                    contentGu.style.display = 'block';
 
-                btnEn.classList.add('active');
-                btnEn.classList.remove('text-slate-600');
-                btnGu.classList.remove('active');
-                btnGu.classList.add('text-slate-600');
+                    btnGu.classList.add('active');
+                    btnGu.classList.remove('text-slate-600');
+                    btnEn.classList.remove('active');
+                    btnEn.classList.add('text-slate-600');
 
-                pageTitle.textContent = 'Terms & Conditions';
-                pageSubtitle.textContent = 'WB2B (WB2B Platform) — Mandatory rules & regulations for all Buyers, Sellers, Brokers, Oil Mill Owners, and Members.';
-                document.documentElement.lang = 'en';
+                    if (pageTitle) pageTitle.textContent = 'નિયમો અને શરતો (Terms & Conditions)';
+                    if (pageSubtitle) pageSubtitle.textContent = 'WB2B (WB2B Platform) — તમામ વેપારીઓ, બ્રોકર, ઓઇલ મિલ ઓનર્સ અને સભ્યો માટે ફરજિયાત નિયમો.';
+                    document.documentElement.lang = 'gu';
+                } else {
+                    contentGu.classList.add('hidden');
+                    contentGu.style.display = 'none';
+
+                    contentEn.classList.remove('hidden');
+                    contentEn.style.display = 'block';
+
+                    btnEn.classList.add('active');
+                    btnEn.classList.remove('text-slate-600');
+                    btnGu.classList.remove('active');
+                    btnGu.classList.add('text-slate-600');
+
+                    if (pageTitle) pageTitle.textContent = 'Terms & Conditions';
+                    if (pageSubtitle) pageSubtitle.textContent = 'WB2B (WB2B Platform) — Mandatory rules & regulations for all Buyers, Sellers, Brokers, Oil Mill Owners, and Members.';
+                    document.documentElement.lang = 'en';
+                }
             }
-        }
+
+            if (btnEn) btnEn.addEventListener('click', function () { setLanguage('en'); });
+            if (btnGu) btnGu.addEventListener('click', function () { setLanguage('gu'); });
+
+            // Support URL param ?lang=gu if shared directly in Gujarati
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('lang') === 'gu') {
+                setLanguage('gu');
+            }
+        });
     </script>
 </body>
+
 </html>
