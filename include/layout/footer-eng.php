@@ -134,7 +134,7 @@
             <div class="flex flex-wrap items-center justify-center gap-4">
                 <a href="/privacy-policy.php" class="hover:text-white transition">Privacy Policy</a>
                 <span class="text-slate-600">•</span>
-                <a href="/terms-conditions" class="hover:text-white transition">Terms & Conditions</a>
+                <a href="/terms-conditions.php" class="hover:text-white transition">Terms & Conditions</a>
                 <span class="text-slate-600">•</span>
                 <a href="/index.php#contact" class="hover:text-white transition">Help Center</a>
             </div>

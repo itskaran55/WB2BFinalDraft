@@ -15,7 +15,10 @@ require_once __DIR__ . '/../include/home/hero-eng.php';
 // 3. Section 2: WB2B નું મહત્વ (Importance of WB2B)
 require_once __DIR__ . '/../include/home/importance-eng.php';
 
-// 4. Section 3: સંપર્ક ફોર્મ (Simple Contact Form: Name, Phone, Email)
+// 3. Section 3: WB2B નું મહત્વ (Importance of WB2B)
+require_once __DIR__ . '/../include/home/teams.php';
+
+// 4. Section 4: સંપર્ક ફોર્મ (Simple Contact Form: Name, Phone, Email)
 require_once __DIR__ . '/../include/home/contact-eng.php';
 
 echo '</main>';
