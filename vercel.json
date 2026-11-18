@@ -18,6 +18,14 @@
       "dest": "/api/privacy-policy.php"
     },
     {
+      "src": "/terms-conditions(.php)?",
+      "dest": "/api/terms-conditions.php"
+    },
+    {
+      "src": "/home/terms-conditions(.php)?",
+      "dest": "/api/terms-conditions.php"
+    },
+    {
       "src": "/(.*)",
       "dest": "/api/index.php"
     }
