@@ -18,7 +18,10 @@ require_once __DIR__ . '/../include/home/importance-eng.php';
 // 4. Section 3: Leadership & Core Committee Team
 require_once __DIR__ . '/../include/home/teams.php';
 
-// 5. Section 4: સંપર્ક ફોર્મ (Simple Contact Form: Name, Phone, Email)
+// 5. Section 4: Meetings & Events Gallery (Categorized by exact folder names)
+require_once __DIR__ . '/../include/home/events.php';
+
+// 6. Section 5: સંપર્ક ફોર્મ (Simple Contact Form: Name, Phone, Email)
 require_once __DIR__ . '/../include/home/contact-eng.php';
 
 echo '</main>';
