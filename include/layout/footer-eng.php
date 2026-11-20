@@ -84,7 +84,7 @@
                     </h4>
                     <div class="space-y-2.5">
                         <!-- PPT 1: WB2B Business Support Member -->
-                        <a href="/assets/WB2B%20BUSINESS%20SUPPORT%20MEMBER.pptx"
+                        <a href="/assets/WB2B%20BUSINESS%20SUPPORT%20MEMBER.pdf"
                            target="_blank"
                            rel="noopener noreferrer"
                            class="group flex items-start gap-2.5 p-2.5 rounded-xl bg-slate-800/60 border border-slate-700/70 hover:border-blue-500/50 hover:bg-slate-800 transition">
@@ -105,7 +105,7 @@
                         </a>
 
                         <!-- PPT 2: WB2B Business Party and Registered Mill Data Final Sheet -->
-                        <a href="/assets/WB2B%20BUSINESS%20PARTY%20AND%20REGISTERD%20MILL%20DATA%20FINAL%20SHEET.pptx"
+                        <a href="/assets/WB2B%20BUSINESS%20PARTY%20AND%20REGISTERD%20MILL%20DATA%20FINAL%20SHEET.pdf"
                            target="_blank"
                            rel="noopener noreferrer"
                            class="group flex items-start gap-2.5 p-2.5 rounded-xl bg-slate-800/60 border border-slate-700/70 hover:border-blue-500/50 hover:bg-slate-800 transition">
