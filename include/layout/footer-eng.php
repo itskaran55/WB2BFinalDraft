@@ -47,7 +47,7 @@
                         <a href="/privacy-policy.php" class="hover:text-blue-400 transition inline-block py-0.5 font-semibold text-slate-300 hover:text-white">Privacy Policy</a>
                     </li>
                     <li>
-                        <a href="/terms-conditions" class="hover:text-blue-400 transition inline-block py-0.5 font-semibold text-slate-300 hover:text-white">Terms & Conditions</a>
+                        <a href="/terms-conditions.php" class="hover:text-blue-400 transition inline-block py-0.5 font-semibold text-slate-300 hover:text-white">Terms & Conditions</a>
                     </li>
                     <li>
                         <a href="/index.php#contact" class="hover:text-blue-400 transition inline-block py-0.5">Contact Form</a>
@@ -61,19 +61,71 @@
                 </ul>
             </div>
 
-            <!-- Column 3: Products -->
-            <div>
-                <h4 class="text-sm font-black text-white uppercase tracking-wider mb-4 border-l-2 border-blue-500 pl-2.5">
-                    Key Products
-                </h4>
-                <ul class="space-y-2.5 text-xs sm:text-sm text-slate-300 font-medium">
-                    <li class="hover:text-white transition">Cottonseed Cake (Bulk & Bags)</li>
-                    <li class="hover:text-white transition">Maize Chura & Maize Grits</li>
-                    <li class="hover:text-white transition">Soya D.O.C (Soya DOC 46%)</li>
-                    <li class="hover:text-white transition">Groundnut Cake & Meal</li>
-                    <li class="hover:text-white transition">Dairy Pellet Feed (Yield Booster)</li>
-                    <li class="hover:text-white transition">Molasses Tankers</li>
-                </ul>
+            <!-- Column 3: Products & Member Presentations -->
+            <div class="space-y-6">
+                <div>
+                    <h4 class="text-sm font-black text-white uppercase tracking-wider mb-4 border-l-2 border-blue-500 pl-2.5">
+                        Key Products
+                    </h4>
+                    <ul class="space-y-2 text-xs sm:text-sm text-slate-300 font-medium">
+                        <li class="hover:text-white transition">Cottonseed Cake (Bulk & Bags)</li>
+                        <li class="hover:text-white transition">Maize Chura & Maize Grits</li>
+                        <li class="hover:text-white transition">Soya D.O.C (Soya DOC 46%)</li>
+                        <li class="hover:text-white transition">Groundnut Cake & Meal</li>
+                        <li class="hover:text-white transition">Dairy Pellet Feed (Yield Booster)</li>
+                        <li class="hover:text-white transition">Molasses Tankers</li>
+                    </ul>
+                </div>
+
+                <!-- Member Documents / PPT Resources -->
+                <div class="pt-4 border-t border-slate-800/90">
+                    <h4 class="text-xs font-black text-white uppercase tracking-wider mb-3 border-l-2 border-blue-500 pl-2.5">
+                        Member Presentations (PPT)
+                    </h4>
+                    <div class="space-y-2.5">
+                        <!-- PPT 1: WB2B Business Support Member -->
+                        <a href="/assets/WB2B%20BUSINESS%20SUPPORT%20MEMBER.pptx"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="group flex items-start gap-2.5 p-2.5 rounded-xl bg-slate-800/60 border border-slate-700/70 hover:border-blue-500/50 hover:bg-slate-800 transition">
+                            <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-blue-500/15 text-blue-400 border border-blue-500/30 group-hover:bg-blue-600 group-hover:text-white transition">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                                </svg>
+                            </span>
+                            <span class="min-w-0 flex-1">
+                                <span class="block text-xs font-bold text-slate-200 group-hover:text-white leading-snug">
+                                    WB2B Business Support Member
+                                </span>
+                                <span class="mt-0.5 inline-flex items-center gap-1 text-[10px] font-semibold text-blue-400 uppercase tracking-wider">
+                                    <span>Open Presentation</span>
+                                    <span>↗</span>
+                                </span>
+                            </span>
+                        </a>
+
+                        <!-- PPT 2: WB2B Business Party and Registered Mill Data Final Sheet -->
+                        <a href="/assets/WB2B%20BUSINESS%20PARTY%20AND%20REGISTERD%20MILL%20DATA%20FINAL%20SHEET.pptx"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="group flex items-start gap-2.5 p-2.5 rounded-xl bg-slate-800/60 border border-slate-700/70 hover:border-blue-500/50 hover:bg-slate-800 transition">
+                            <span class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-blue-500/15 text-blue-400 border border-blue-500/30 group-hover:bg-blue-600 group-hover:text-white transition">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                                </svg>
+                            </span>
+                            <span class="min-w-0 flex-1">
+                                <span class="block text-xs font-bold text-slate-200 group-hover:text-white leading-snug">
+                                    WB2B Business Party & Registered Mill Data Final Sheet
+                                </span>
+                                <span class="mt-0.5 inline-flex items-center gap-1 text-[10px] font-semibold text-blue-400 uppercase tracking-wider">
+                                    <span>Open Presentation</span>
+                                    <span>↗</span>
+                                </span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
             </div>
 
             <!-- Column 4: Contact & Office -->
